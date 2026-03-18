@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 
-st.title(" Mi Primera App!!")
+st.title(" Baby shower:D Mi Primera App!!")
 
 st.header("En este espacio comienzo a desarrollar mis aplicaciones para interfaces multimodales.")
 st.write("Facilmente puedo realizar backend y frontend.")
@@ -27,17 +27,17 @@ with col2:
     st.subheader("Esta es la segunda columna")
     modo = st.radio("Que Modalidad es la principal en tu interfaz", ('Visual', 'auditiva', 'Táctil'))
     if modo == 'Visual':
-       st.write('La vista es fundamental para tu interfaz')
+       st.write('ke lindos ojos tienes')
     if modo == 'auditiva':
-       st.write('La audición es fundamental para tu interfaz')
+       st.write('ke grandes orejas tienes')
     if modo == 'Táctil':
-       st.write('El tacto es fundamental para tu interfaz')
+       st.write('ke toque tan suave tienes')
         
 st.subheader("Uso de Botones")
 if st.button('Presiona el botón'):
-    st.write('Gracias por presionar')
+    st.write('Gracias por presionar :3')
 else:
-    st.write('No has presionado aún')
+    st.write('No has presionado aún :(')
 
 st.subheader("Selectbox")
 in_mod = st.selectbox(
